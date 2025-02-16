@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="serviços.css">
+    <title>Página de Produtos</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">JV Web & Design</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Nossos Produtos</h1>
+
+        <div class="product" data-id="1">
+            <img src="./imagens/desenvolvimento web.webp" alt="Desenvolvimento web">
+            <h2>Desenvolvimento web</h2>
+            <p>A partir: R$ 100,00</p>
+            <button class="whatsapp-button" onclick="redirectToWhatsApp()">Conversar no WhatsApp</button>
+        </div>
+
+        <div class="product" data-id="2">
+            <img src="./imagens/manuntençao.jpg" alt="Manunteção">
+            <h2>Manunteção</h2>
+            <p>Preço: R$ 80,00</p>
+            <button class="whatsapp-button" onclick="redirectToWhatsApp()">Conversar no WhatsApp</button>
+        </div>
+
+        <div class="product" data-id="3">
+            <img src="./imagens/desnig banner.webp" alt="Banner">
+            <h2>Design de Banner</h2>
+            <p>A partir: R$ 30,00</p>
+            <button class="whatsapp-button" onclick="redirectToWhatsApp()">Conversar no WhatsApp</button>
+        </div>
+
+        <div class="product" data-id="4">
+            <img src="./imagens/logotipo.avif" alt="logotipo" height="400" width="400">
+            <h2>Design de logotipo</h2>
+            <p>A partir: R$ 30,00</p>
+            <button class="whatsapp-button" onclick="redirectToWhatsApp()">Conversar no WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- -- ><div id="cart">
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button id="checkout">Finalizar Compra</button>
+    </div></*-->
+
+    <footer>
+        <p>&copy; 2025 JV Web & Design. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
