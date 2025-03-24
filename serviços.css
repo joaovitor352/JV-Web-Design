@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to top, black, red); /* Fundo em gradiente */
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(255, 255, 255)); /* Fundo em gradiente */
     color: white;
     min-height: 100vh;
 }
@@ -48,7 +48,7 @@ header nav ul li a:hover {
 }
 
 .product {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: 15px;
     padding: 20px;
